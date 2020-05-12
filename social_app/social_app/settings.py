@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
-    # 'social_django',
+    'social_django',
 ]
 
 AUTHENTICATION_BACKENDS = [
@@ -114,8 +114,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-SOCIAL_AUTH_FACEBOOK_KEY = '287670198902445'        # App ID
-SOCIAL_AUTH_FACEBOOK_SECRET = '15e669767b00bbcb3d18c044b7fd0374' # App Secret
+SOCIAL_AUTH_FACEBOOK_KEY = 'xxxxxxxxx'        # App ID
+SOCIAL_AUTH_FACEBOOK_SECRET = 'xxxxxxxxxx' # App Secret
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email', 'user_link'] # add this
 SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {       # add this
   'fields': 'id, name, email, picture.type(large), link'
